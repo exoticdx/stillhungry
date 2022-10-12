@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login Page</title>
+    <style>
+      		button {	width: 100%;	background-color: rgb(73,
+      73, 227);
+      color: white; padding: 15px; margin: 10px 0px; border: none; cursor: pointer; border-radius: 20px;
+      }
+
+
+      form {	border: 3px solid #f1f1f1;
+      }
+
+
+      input[type=text], input[type=password] {
+      width: 100%;	margin: 8px 0;	padding: 12px 20px; display: inline-block;		box- sizing: border-box;
+
+      }
+
+
+      button:hover { opacity: 0.7;
+      }
+
+
+      h1 {	text- align: center;
+      }
+
+
+      #d {	text- align: center;
+      }
+
+
+
+      .container { padding: 25px;
+      }
+
+
+      .con { width: 40%;
+      margin-left: 30%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="con">
+      <h1>Login</h1>
+      <form>
+        <div class="container">
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="username"
+            required
+          />
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <a href="#">Forgot Password?</a>
+          <button type="submit">Login</button>
+          <div id="d">Not a member? <a href="#">SingUp</a></div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
